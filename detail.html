@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="Logo.png">
+    <title>Detail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="shortcut icon" href="./images/base/Logo.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/detail.css">
+</head>
+<body>
+    <div class="container grid wide">
+        <header id="header">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="./index.html">
+                                <i class="fa-solid fa-house"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./products.html">
+                                <i class="fa-solid fa-utensils"></i>
+                                Products
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-solid fa-id-badge"></i>
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./index.html#contact">
+                                <i class="fa-solid fa-message"></i>
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="header__account">
+                        <div class="header__notify">
+                            <i class="fa-solid fa-bell"></i>
+                            <div class="header__notification-container">
+                                <div class="header__notification-heading">
+                                    <h4 class="header__notification-title">New Notification</h4>
+                                </div>
+                                <ul class="header__notification-list">
+                                    <li class="header__notification-item">
+                                        <img src="./images/base/sale_50.png" alt="" class="header__notification-img">
+                                        <div class="header__notification-info">
+                                            <h5>Black Friday sale off 50%</h5>
+                                        </div>
+                                    </li>
+                                    <li class="header__notification-item">
+                                        <img src="./images/base/sale.jpg" alt="" class="header__notification-img">
+                                        <div class="header__notification-info">
+                                            <h5>Big Sale in Merry Christmas</h5>
+                                        </div>
+                                    </li>
+                                    <li class="header__notification-item">
+                                        <img src="./images/base/sale_20.png" alt="" class="header__notification-img">
+                                        <div class="header__notification-info">
+                                            <h5>Up to 20% off in your birthday</h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="header__account-btn--sign-in js-sign-in__btn">Sign In</button>
+                        <button class="header__account-btn--sign-up js-sign-up__btn">Sign Up</button>
+                    </div>
+                </nav>
+                <div class="header-with-search">
+                    <div class="mobile-menu__btn js-mobile-menu__btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="./images/base/Logo.png" alt="" class="header__logo-img">
+                        </a>
+                        <div class="header__qr-code">
+                            <img src="./images/base/qr_code.png" alt="" class="header__img-qr">
+                        <div class="header__qr-download">
+                            <a href="">
+                                <img src="./images/base/google_play.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="./images/base/app_store.png" alt="">  
+                            </a>
+                        </div>
+                        <div class="header__qr-separete"></div>
+                        </div>  
+                    </div>
+                    <div class="header__search">
+                        <input type="text" placeholder="Enter to search..." class="header__search-input">
+                        <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
+                        <div class="header__search-history">
+                            <div class="header__search-history-title">
+                                <h4>Search History:</h4>
+                            </div>
+                            <ul class="header__search-history-list">
+                                    <li>Best Food</li>
+                                    <li>Soft Drinks</li>
+                                    <li>Vegetarian Food</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <div class="header__cart-container">
+                            <table class="header__cart-table">
+                                <thead class="header__cart-thead">
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Product's name</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="header__cart-tbody">
+                                    <!-- show product -->
+                                </tbody>
+                            </table>
+                            <footer class="header__cart-footer">
+                                <p class="header__cart-sumMoney">Total money: <span>0$</span></p>
+                                <button>Order</button>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <div class="product-details row">
+            <!-- showdata -->
+        </div>
+        <div class="related-products">
+            <h4 class="related-products__title">Related Products</h4>
+        </div>
+        <div class="related-products__list-item row"></div>
+        <footer id="footer">
+            <div class="footer__logo">
+                <a href="./index.html#">
+                    <img src="./images/base/Logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-house"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./products.html">
+                            <i class="fa-solid fa-utensils"></i>
+                            Products
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-id-badge"></i>
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./index.html#contact">
+                            <i class="fa-solid fa-message"></i>
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+    <div class="modal js-modal">
+        <div class="mobile-menu__container js-mobile-menu__container">
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="./products.html">
+                        <i class="fa-solid fa-utensils"></i>
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-id-badge"></i>
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html#contact">
+                        <i class="fa-solid fa-message"></i>
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-menu__btn-close js-mobile-menu__btn-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+         <!-- auth form -->
+         <form action="" class="auth-form js-sign-in"  onsubmit="return regexSignIn(event)">
+            <div class="auth-form__title">
+                <h5>Sign In</h5>
+            </div>
+            <div class="auth-form__account">
+                <input type="text" class="auth-form__input" placeholder="Username" name="account-sign-in">
+                <p class="error-messages"></p>
+                <div class="auth-form__input--eye1">
+                    <input type="password" class="auth-form__input" placeholder="Password" name="password-sign-in">
+                    <i class="fa-solid fa-eye auth-form__icon-eye1" ></i>
+                </div>
+                <p class="error-messages"></p>
+            </div>
+            <button class="auth-form__btn auth-form__btn--sign-in">Sign In</button>
+            <div class="auth-form__note">
+                <a href="">Forgot password</a>
+            </div>
+            <div class="auth-form__socicals">
+                <a href="https://www.facebook.com/vananh362" class="auth-form__btn auth-form__btn-facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook
+                </a>
+                <a href="https://www.instagram.com/vananhd362/"  class="auth-form__btn auth-form__btn-google">
+                    <i class="fa-brands fa-google"></i>
+                    Google
+                </a>
+            </div>
+            <div class="auth-form__ask">
+                <p>You are new to Shopee
+                    <span class="js-sign-up__btn">Sign up</span>
+                </p>
+            </div>
+        </form>
+        <form action="" class="auth-form js-sign-up" onsubmit="return regexSignUp(event)">
+            <div class="auth-form__title">
+                <h5>Sign Up</h5>
+            </div>
+            <div class="auth-form__account">
+                <input type="text" class="auth-form__input" placeholder="Username" onchange="">
+                <p class="error-messages"></p>
+                <div class="auth-form__input--eye2">
+                    <input type="password" class="auth-form__input" placeholder="Password">
+                    <i class="fa-solid fa-eye auth-form__icon-eye2" ></i>
+                </div>
+                <p class="error-messages"></p>
+                <div class="auth-form__input--eye3">
+                    <input type="password" class="auth-form__input" placeholder="Re-password">
+                    <i class="fa-solid fa-eye auth-form__icon-eye3" ></i>
+                </div>                
+                <p class="error-messages"></p>
+            </div>
+            <button class="auth-form__btn auth-form__btn--sign-in">Sign Up</button>       
+            <div class="auth-form__socicals">
+                <a href="https://www.facebook.com/vananh362" class="auth-form__btn auth-form__btn-facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook
+                </a>
+                <a href="https://www.instagram.com/vananhd362/" class="auth-form__btn auth-form__btn-google">
+                    <i class="fa-brands fa-google"></i>
+                    Google
+                </a>
+
+            </div>
+            <div class="auth-form__policy">
+                <p>
+                    By registering, you agree to shopee's terms of 
+                    <a href="">service</a> & 
+                    <a href="">privacy policy</a>
+                </p>
+            </div>
+            <div class="auth-form__ask">
+                <p>You have an account
+                    <span class="js-sign-in__btn">Sign in</span>
+                </p>
+            </div>
+        </form>
+    </div>
+    <script src="./src/main.js"></script>
+</body>
+</html>

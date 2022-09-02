@@ -1,0 +1,110 @@
+.product-details{
+    margin: 65px 0;
+}
+.product-details__info{
+    margin: auto 0;
+}
+.product-details__name,
+.product-details__price{
+    font-size: 40px;
+    line-height: 48px;
+}
+.product-details__name{
+    font-weight: 900;
+}
+.product-details__price{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 600;
+    color: var(--primary-color);
+}
+.product-details__desc{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.product-details__amount{
+    margin: 32px 0;
+    max-width: 464px;
+    width: 100%;
+}
+.product-details__amount input{
+    height: 42px;
+    outline: none;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding:  0 5px 0 15px;
+}
+.product-details__amount button{
+    margin-left: 20px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    border-radius: 5px;
+    min-width: 110px;
+    padding: 12px 0;
+    cursor: pointer;
+}
+.product-details__img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* related products */
+.related-products__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 32px;
+}
+.related-products__item-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.related-products__item-name{
+    color: var(--black-color);
+    text-decoration: none;
+}
+.related-products__item-name h4{
+    font-size: 18px;
+    line-height: 26px;
+    margin: 24px 0;
+    min-height: 52px;
+}
+.related-products__item-price{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 20px;
+}
+.related-products__item-btn{
+    border: none;
+    outline: none;
+    width: 100%;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 5px;
+    padding: 12px 0;
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+/* resposive */
+@media(max-width: 739px){
+    .product-details__amount input,
+    .product-details__amount button{
+        display: block;
+        height: 42px;
+        width: 100%;
+    }
+    .product-details__amount button{
+        margin: 16px 0;
+    }
+    .product-details__amount{
+        margin: 32px auto;
+    }
+}
